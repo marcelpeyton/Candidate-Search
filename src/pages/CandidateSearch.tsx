@@ -32,7 +32,7 @@ const CandidateSearch = () => {
   }, []);
 
   useEffect(() => {
-    console.log("Current candidate has changed:", currentCandidate);
+    //console.log("Current candidate has changed:", currentCandidate);
   }, [currentCandidate]);
 
   const addToPotentialCandidates = () => {
