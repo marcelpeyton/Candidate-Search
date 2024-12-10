@@ -6,8 +6,7 @@ const searchGithub = async () => {
       `https://api.github.com/users?since=${start}`,
       {
         headers: {
-          //Authorization: `Bearer ${import.meta.env.VITE_GITHUB_TOKEN}`,
-          Authorization: `Bearer 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`,          
+          Authorization: `Bearer ${import.meta.env.VITE_GITHUB_TOKEN}`,         
         },
       }
     );
@@ -29,8 +28,7 @@ const searchGithubUser = async (username: string) => {
   try {
     const response = await fetch(`https://api.github.com/users/${username}`, {    
       headers: {
-        //Authorization: `Bearer ${import.meta.env.VITE_GITHUB_TOKEN}`,
-        Authorization: `Bearer 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`,
+        Authorization: `Bearer ${import.meta.env.VITE_GITHUB_TOKEN}`,       
       },
     });
     console.log(`Response from SearchGitHubUser ${JSON.stringify(response)} | Occurred when search for ${username} username`)
