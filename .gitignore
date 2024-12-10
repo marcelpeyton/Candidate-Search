@@ -1,4 +1,5 @@
 environment/
+environment/.env
 # Logs
 logs
 *.log
