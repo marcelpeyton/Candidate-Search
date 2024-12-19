@@ -1,7 +1,7 @@
 # Candidate Search <img align="right" src="https://img.shields.io/badge/License-MIT-blue"></img>
 
 ## Description
-Make a schedule using google calendar API.
+Search for candidates using git hub API
 
 ## Table of Contents
 
